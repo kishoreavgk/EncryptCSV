@@ -16,3 +16,4 @@ There are two .py file in repository,
    c. EncryptCSV.exe is created under dist folder can be executed from the input.csv file path to recreate the required output.csv
 4. Script can be directly executed as below,
    a. python EncryptCSV.py
+5. It took 34 mins approximately to process the input file of 18.7 GB
