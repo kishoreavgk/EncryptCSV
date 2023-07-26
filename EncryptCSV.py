@@ -16,6 +16,6 @@ def hash_file(input_file_name, output_file_name):
         csv_output.writerow(next(csv_input))    # Copy the header row to the output
 
         for user, phonenumber, password in csv_input: 
-            csv_output.writerow([user, hash(phonenumber), hash(password)]) 
+            csv_output.writerow([user, hash(phonenumber)[0:10], hash(password)[0:14]]) 
 
 hash_file('input.csv', 'output.csv')
